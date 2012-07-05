@@ -6,3 +6,4 @@
 		<title><? echo $title ?></title>
 	</head>
 	<body>
+	<?php require 'incl/body.php'; ?>

@@ -4,6 +4,7 @@ $title = 'Home';
 require 'template/header.php';
 ?>
 
-<img src="img/logo.jpg" />
+<fb:login-button
+registration-url="https://developers.facebook.com/docs/plugins/registration" />
 
 <?php require 'template/footer.php'; ?>
