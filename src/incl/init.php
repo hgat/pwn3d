@@ -1,6 +1,9 @@
 <?php
-require 'settings.php';
-require 'connect.php';
+require 'settings.php'; //end-user defined variables
+require 'connect.php'; //DB stuff
 
-include 'testing.php'; //overrides any variables for testing
+/* Include testing files */
+if(file_exists('testing.php')){
+	include 'testing.php'; //overrides any variables for testing
+}
 ?>
