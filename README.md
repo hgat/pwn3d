@@ -14,4 +14,4 @@ More info can be found at: http://bit.ly/LAkJ4S
 Notes
 ----
 
-* When testing, be sure to edit the settings file according to your setup. Make sure you don't commit your info!
+I literally just made testing the easiest thing EVER. All you have to do is create the file ```/src/incl/testing.php```. Anything you do in there is automatically included in ```init.php```.
