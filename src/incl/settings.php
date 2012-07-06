@@ -15,5 +15,4 @@ $mysql_host = 'localhost';
 $mysql_user = 'root';
 $mysql_pass = '';
 $mysql_database = 'pwn3d';
-
 ?>
