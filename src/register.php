@@ -6,8 +6,8 @@ require 'template/header.php';
 
 <iframe allowtransparency="true" frameborder="no" height="600" scrolling="auto" src="http://www.facebook.com/plugins/registration.php?
 client_id=<? echo $fb_app_id; ?>&
-redirect_uri=http://hgat.co.uk/register_store.php?&
-fields=[
+redirect_uri=http://hgat.co.uk/pwn3d/register_store.php?&
+fields="[
 {"name":"name"},
 {"name":"email"},
 {"name":"password"},

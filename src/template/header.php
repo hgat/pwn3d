@@ -6,4 +6,5 @@
 		<title><? echo $title ?></title>
 	</head>
 	<body>
-	<?php require 'incl/body.php'; ?>
+		<?php require 'incl/body.php'; ?>
+		<div id="container">
